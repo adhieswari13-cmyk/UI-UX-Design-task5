@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Product Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style7.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand amazon-logo" href="#">
+            amazon
+        </a>
+
+        <div class="search-area d-none d-md-flex">
+            <input
+                type="text"
+                class="form-control"
+                placeholder="Search Amazon">
+
+            <button class="btn search-btn">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+
+        <div class="text-white">
+            <small>Hello, Sign in</small>
+            <br>
+            <strong>Account & Lists</strong>
+        </div>
+
+        <div class="text-white d-none d-sm-block">
+            <small>Returns</small>
+            <br>
+            <strong>& Orders</strong>
+        </div>
+
+        <div class="text-white cart">
+            <i class="bi bi-cart3"></i>
+            <span>Cart</span>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- ================= PRODUCT SECTION ================= -->
+
+<div class="container-fluid product-container py-4">
+
+    <div class="row g-4">
+
+
+        <!-- ================= IMAGE GALLERY ================= -->
+
+        <div class="col-12 col-lg-5">
+
+            <div class="row">
+
+                <!-- Thumbnails -->
+
+                <div class="col-2">
+
+                    <div class="thumbnail-list">
+
+                        <img
+                            src="product0.jfif"
+                            class="img-thumbnail thumbnail active"
+                            alt="Product image">
+
+                        <img src="product1.jfif"
+     class="img-thumbnail thumbnail"
+     alt="Product image">
+
+<img src="product2..jfif"
+     class="img-thumbnail thumbnail"
+     alt="Product image">
+
+<img src="product3.jfif"
+     class="img-thumbnail thumbnail"
+     alt="Product image">
+
+<img src="product4.jfif"
+     class="img-thumbnail thumbnail"
+     alt="Product image">
+                    </div>
+
+                </div>
+
+
+                <!-- Main Image -->
+
+                <div class="col-10">
+
+                    <div class="main-image text-center">
+
+                        <img
+                            src="product1.jfif"
+                            class="img-fluid"
+                            alt="Product">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= PRODUCT INFORMATION ================= -->
+
+        <div class="col-12 col-lg-4">
+
+            <h2 class="product-title">
+                Wireless Bluetooth Headphones with Noise Cancellation
+            </h2>
+
+            <p class="text-muted">
+                Visit the Example Store
+            </p>
+
+            <!-- Rating -->
+
+            <div class="rating mb-2">
+
+                <span class="stars">
+                    ★★★★★
+                </span>
+
+                <a href="#">
+                    4.5 out of 5
+                </a>
+
+                <span class="text-muted">
+                    | 2,345 ratings
+                </span>
+
+            </div>
+
+            <hr>
+
+            <!-- Price -->
+
+            <div>
+
+                <span class="discount">
+                    -25%
+                </span>
+
+                <span class="price">
+                    ₹2,999
+                </span>
+
+            </div>
+
+            <p class="text-muted">
+                M.R.P. <del>₹3,999</del>
+            </p>
+
+            <p>
+                <strong>Inclusive of all taxes</strong>
+            </p>
+
+            <hr>
+
+            <!-- Offers -->
+
+            <h5>
+                Offers
+            </h5>
+
+            <div class="row g-2">
+
+                <div class="col-6">
+
+                    <div class="offer-box">
+                        <strong>Bank Offer</strong>
+                        <br>
+                        10% instant discount
+                    </div>
+
+                </div>
+
+                <div class="col-6">
+
+                    <div class="offer-box">
+                        <strong>Cashback</strong>
+                        <br>
+                        Earn cashback
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!-- Product Details -->
+
+            <h5>
+                About this item
+            </h5>
+
+            <ul>
+                <li>Premium wireless headphones</li>
+                <li>Active noise cancellation</li>
+                <li>Up to 40 hours battery life</li>
+                <li>Fast charging support</li>
+                <li>Comfortable over-ear design</li>
+            </ul>
+
+        </div>
+
+
+        <!-- ================= BUY BOX ================= -->
+
+        <div class="col-12 col-lg-3">
+
+            <div class="buy-box">
+
+                <div class="price">
+                    ₹2,999
+                </div>
+
+                <p class="text-success">
+                    FREE delivery
+                </p>
+
+                <p>
+                    <strong>
+                        Delivery by Tomorrow
+                    </strong>
+                </p>
+
+                <p class="text-success fw-bold">
+                    In Stock
+                </p>
+
+
+                <!-- Quantity -->
+
+                <label class="form-label">
+                    Quantity:
+                </label>
+
+                <select class="form-select mb-3">
+
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+
+                </select>
+
+
+                <!-- Buttons -->
+
+                <button class="btn btn-warning w-100 rounded-pill mb-2">
+                    <i class="bi bi-cart-plus"></i>
+                    Add to Cart
+                </button>
+
+                <button class="btn btn-orange w-100 rounded-pill">
+                    Buy Now
+                </button>
+
+                <hr>
+
+                <p class="text-muted small">
+                    Secure transaction
+                </p>
+
+                <p class="small">
+                    Ships from <strong>Amazon</strong>
+                </p>
+
+                <p class="small">
+                    Sold by <strong>Example Store</strong>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= PRODUCT DETAILS ================= -->
+
+<section class="details-section py-5">
+
+    <div class="container">
+
+        <h2>
+            Product Details
+        </h2>
+
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <table class="table table-bordered">
+
+                    <tr>
+                        <th>Brand</th>
+                        <td>Example Brand</td>
+                    </tr>
+
+                    <tr>
+                        <th>Model</th>
+                        <td>WH-500</td>
+                    </tr>
+
+                    <tr>
+                        <th>Connectivity</th>
+                        <td>Bluetooth 5.3</td>
+                    </tr>
+
+                    <tr>
+                        <th>Battery</th>
+                        <td>40 Hours</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <table class="table table-bordered">
+
+                    <tr>
+                        <th>Color</th>
+                        <td>Black</td>
+                    </tr>
+
+                    <tr>
+                        <th>Weight</th>
+                        <td>250 g</td>
+                    </tr>
+
+                    <tr>
+                        <th>Warranty</th>
+                        <td>1 Year</td>
+                    </tr>
+
+                    <tr>
+                        <th>Included</th>
+                        <td>Headphones, Cable, Case</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= REVIEWS ================= -->
+
+<section class="reviews-section py-5">
+
+    <div class="container">
+
+        <h2>
+            Customer Reviews
+        </h2>
+
+        <hr>
+
+        <!-- Overall Rating -->
+
+        <div class="row mb-4">
+
+            <div class="col-md-4 text-center">
+
+                <h1>
+                    4.5
+                </h1>
+
+                <div class="stars fs-4">
+                    ★★★★★
+                </div>
+
+                <p class="text-muted">
+                    2,345 global ratings
+                </p>
+
+            </div>
+
+
+            <!-- Rating Progress -->
+
+            <div class="col-md-6">
+
+                <div class="mb-2">
+                    5 star
+                    <div class="progress">
+                        <div class="progress-bar bg-warning"
+                             style="width: 75%;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-2">
+                    4 star
+                    <div class="progress">
+                        <div class="progress-bar bg-warning"
+                             style="width: 15%;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-2">
+                    3 star
+                    <div class="progress">
+                        <div class="progress-bar bg-warning"
+                             style="width: 6%;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Review 1 -->
+
+        <div class="review-card mb-4">
+
+            <h5>
+                <i class="bi bi-person-circle"></i>
+                Rahul
+            </h5>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <h6>
+                Excellent sound quality
+            </h6>
+
+            <p>
+                The headphones have excellent sound quality and
+                the battery lasts for a long time. Very comfortable
+                for daily use.
+            </p>
+
+        </div>
+
+
+        <!-- Review 2 -->
+
+        <div class="review-card mb-4">
+
+            <h5>
+                <i class="bi bi-person-circle"></i>
+                Priya
+            </h5>
+
+            <div class="stars">
+                ★★★★☆
+            </div>
+
+            <h6>
+                Good product
+            </h6>
+
+            <p>
+                Good quality product for the price. Noise cancellation
+                works well and the design is comfortable.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-dark text-white text-center py-4">
+
+    <p class="mb-0">
+        Amazon Product Page - UI Design Practice
+    </p>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>

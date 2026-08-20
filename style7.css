@@ -1,0 +1,205 @@
+/* ================= GENERAL ================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.amazon-logo {
+    color: #ff9900 !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.search-area {
+    width: 45%;
+}
+
+.search-area input {
+    border-radius: 5px 0 0 5px;
+}
+
+.search-btn {
+    background-color: #febd69;
+    border-radius: 0 5px 5px 0;
+    width: 55px;
+}
+
+.cart {
+    font-size: 18px;
+}
+
+.cart i {
+    font-size: 28px;
+}
+
+
+/* ================= PRODUCT ================= */
+
+.product-container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.product-title {
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.main-image {
+    min-height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image img {
+    max-height: 500px;
+    object-fit: contain;
+}
+
+
+/* ================= THUMBNAILS ================= */
+
+.thumbnail-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.thumbnail {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.thumbnail:hover,
+.thumbnail.active {
+    border: 2px solid #007185;
+}
+
+
+/* ================= RATING ================= */
+
+.stars {
+    color: #f5a623;
+    letter-spacing: 2px;
+}
+
+.rating a {
+    color: #007185;
+    text-decoration: none;
+}
+
+
+/* ================= PRICE ================= */
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #b12704;
+}
+
+.discount {
+    background-color: #cc0c39;
+    color: white;
+    padding: 5px 8px;
+    margin-right: 8px;
+}
+
+
+/* ================= OFFERS ================= */
+
+.offer-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+
+/* ================= BUY BOX ================= */
+
+.buy-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.btn-orange {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+
+.btn-orange:hover {
+    background-color: #e68a00;
+    border-color: #e68a00;
+}
+
+
+/* ================= DETAILS ================= */
+
+.details-section {
+    background-color: #f7f7f7;
+}
+
+
+/* ================= REVIEWS ================= */
+
+.reviews-section {
+    background-color: white;
+}
+
+.review-card {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    max-width: 800px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .amazon-logo {
+        font-size: 22px;
+    }
+
+    .product-title {
+        font-size: 21px;
+    }
+
+    .main-image {
+        min-height: 300px;
+    }
+
+    .thumbnail {
+        width: 55px;
+        height: 55px;
+    }
+
+    .buy-box {
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .thumbnail {
+        width: 50px;
+        height: 50px;
+    }
+
+    .price {
+        font-size: 25px;
+    }
+
+}@charset "utf-8";
+/* CSS Document */
+
