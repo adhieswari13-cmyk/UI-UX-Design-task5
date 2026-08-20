@@ -1,0 +1,192 @@
+/* ================= GENERAL ================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        transparent
+    );
+    padding: 20px 0;
+}
+
+.netflix-logo {
+    color: #e50914 !important;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.language-select {
+    width: 110px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.language-select option {
+    color: black;
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    min-height: 700px;
+
+    background-image: url(
+        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=2000&q=80"
+    );
+
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+
+    max-width: 850px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    font-size: 20px;
+}
+
+
+/* ================= FEATURES ================= */
+
+.features-section {
+    background-color: #111;
+    color: white;
+}
+
+.feature-card {
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    background-color: #252525;
+}
+
+.feature-icon {
+    font-size: 50px;
+    color: #e50914;
+}
+
+
+/* ================= PRICING ================= */
+
+.pricing-section {
+    background-color: #000;
+}
+
+.pricing-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-8px);
+}
+
+.pricing-card .bi-check-lg {
+    color: #e50914;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.popular-plan {
+    border: 3px solid #e50914;
+}
+
+.popular-badge {
+    background-color: #e50914;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .netflix-logo {
+        font-size: 24px;
+    }
+
+    .hero-section {
+        min-height: 600px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+
+    .language-select {
+        width: 90px;
+        font-size: 13px;
+    }
+
+    .navbar {
+        padding: 15px 0;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .netflix-logo {
+        font-size: 21px;
+    }
+
+    .language-select {
+        display: none;
+    }
+}@charset "utf-8";
+/* CSS Document */
+
